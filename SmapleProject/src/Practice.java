@@ -22,6 +22,11 @@ public class Practice {
 	     }
 		System.out.println("Things are Done and solutions are bit enough");
 	}
+	
+	private void Syso() {
+		// TODO Auto-generated method stub
+       System.out.println("***** ");
+	}
 
 }
 
