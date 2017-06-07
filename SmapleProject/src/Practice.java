@@ -20,7 +20,7 @@ public class Practice {
 	     } else {
 	        System.out.println("Weekday");
 	     }
-		
+		System.out.println("Things are Done and solutions are bit enough");
 	}
 
 }
