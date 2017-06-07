@@ -38,8 +38,11 @@ public class Practice {
 			pt.solution();
 	}
 	
-	
-	
+  private void Syso() {
+		// TODO Auto-generated method stub
+       System.out.println("***** ");
+	}
+
 
 }
 
