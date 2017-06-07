@@ -2,6 +2,18 @@ import java.util.Calendar;
 
 public class Practice {
 
+	
+	public String solution(){
+		
+		System.out.println(" Hello Nacl Solution how are you");
+		
+		return null;
+	}
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Calendar myDate = Calendar.getInstance(); // set this up however you need it.
@@ -11,8 +23,8 @@ public class Practice {
 		if(myDate.get(Calendar.DAY_OF_WEEK) == Calendar.WEDNESDAY) {
 	         System.out.println("Wednedday");
 	         String a = "fuzz";
-	         StringBuffer sb = new StringBuffer("mall"); 
-	         sb.replace(0, 0, "b");
+	         StringBuffer sb = new StringBuffer("fuzz"); 
+	         sb.replace(0, 2, "bi");
 	         String b="";
 	         b= a.replace('f', 'b');
 	         System.out.println("value of a is"+a+" "+b +" sb "+sb);
@@ -21,7 +33,13 @@ public class Practice {
 	        System.out.println("Weekday");
 	     }
 		System.out.println("Things are Done and solutions are bit enough");
+		
+			Practice pt = new Practice();
+			pt.solution();
 	}
+	
+	
+	
 
 }
 
