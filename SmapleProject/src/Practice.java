@@ -40,7 +40,7 @@ public class Practice {
 	
   private void Syso() {
 		// TODO Auto-generated method stub
-       System.out.println("***** ");
+       System.out.println("******** ");
 	}
 
 
