@@ -1,0 +1,113 @@
+"id"   : 1,
+	"name" : "sarah",
+	"age"  : 51,
+	"salary" : 10000
+
+
+//***** PLNKR ************\\ Angular 
+https://embed.plnkr.co/O2DSd7dH7akOgXD1pD0P/
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>angular2 playground</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.angularjs.org/tools/traceur-runtime.js"></script>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="config.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.52/angular2.min.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.52/http.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    System.import('app')
+      .catch(console.error.bind(console));
+  </script>
+  
+  <style>
+div.head {
+    text-align: left;
+   background-color: grey;
+}
+</style>
+  
+  </head>
+
+  <body>
+    <app> loading.. </app>
+  
+   
+   
+    <div class="head">
+        <h1>Dispute Intiation</h1>
+    </div>
+    
+    <div class="row">
+    
+    
+    <div class="col-sm-6" style="background-color:yellow;">
+     
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="col-sm-6" style="background-color:pink;">
+      
+    </div>
+  </div>
+    
+    
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Sub Dispute</a><a class="navbar-brand" href="#">Normal Dispute</a>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6"><b>TABLE ONE</b>
+            <table>
+                <tr>
+                    <td>One</td>
+                    <td>Two</td>
+                </tr>
+                <tr>
+                    <td>Three&nbsp;</td>
+                    <td>Four</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-xs-6"><b>TABLE TWO</b>
+         <table>
+                <tr>
+                    <td>One</td>
+                    <td>Two</td>
+                </tr>
+                <tr>
+                    <td>Three&nbsp;</td>
+                    <td>Four</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+http://jsfiddle.net/Lpcu3so6/4/
+
+https://www.bootply.com/hS7I5Jpwrc
+

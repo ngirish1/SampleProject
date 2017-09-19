@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>angular2 playground</title>
+    <link rel="stylesheet" href="style.css" />
+   <!--  <script src="https://code.angularjs.org/tools/traceur-runtime.js"></script>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script> -->
+    <script src="config.js"></script>
+   <!--  <script src="https://code.angularjs.org/2.0.0-alpha.52/angular2.min.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.52/http.min.js"></script> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    System.import('app')
+      .catch(console.error.bind(console));
+  </script>
+  
+  <style>
+div.head {
+    text-align: left;
+   background-color: grey;
+}
+</style>
+  
+ 
+ 
+</head>
+
+  
+  <body>
+   
+    
+    
+     <div class="head">
+        <h1>Dispute Intiation</h1>
+    </div>
+    
+  
+    
+ 
+
+
+  
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6" style="background-color:white;"><b>TRANSACTION INFORMATION</b>
+            <table>
+                <tr>
+                    <td>Customer Name</td>
+                    <td>jhon Doe</td>
+                </tr>
+                <tr>
+                    <td>Account Number&nbsp;</td>
+                    <td>6011-00000-0000-0000</td>
+                </tr>
+                <tr>
+                    <td>Transaction Date&nbsp;</td>
+                    <td>MM/DD/YYYY</td>
+                </tr>
+                <tr>
+                    <td>Active EMV Waiver&nbsp;</td>
+                    <td>yes</td>
+                </tr>
+                <tr>
+                    <td>CID Enrollment Flag &nbsp; &nbsp;</td>
+                    <td>NONe</td>
+                </tr>
+                
+            </table>
+        </div>
+       
+        <div class="col-xs-6"><b>CUSTOMER INFORMATION</b>
+         <table>
+                <tr>
+                    <td>Transaction Amount &nbsp;</td>
+                    <td>$18.87</td>
+                </tr>
+                <tr>
+                    <td>Merchant&nbsp;</td>
+                    <td>Walgreens #5138</td>
+                </tr>
+                <tr>
+                    <td>Transaction Date&nbsp;</td>
+                    <td>07-26-2017</td>
+                </tr>
+                <tr>
+                    <td>Postal Code&nbsp;</td>
+                    <td>44035</td>
+                </tr>
+                <tr>
+                    <td>State/Country&nbsp;&nbsp;</td>
+                    <td>OH</td>
+                </tr>   
+            </table>
+        </div>
+        
+  </div>
+  
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">1 Contact Merchant</a><a class="navbar-brand" href="#">2 Reason</a><a class="navbar-brand" href="#">3 Additional Details</a><a class="navbar-brand" href="#">4 Verify</a>
+    </div>
+  </div>
+</nav> 
